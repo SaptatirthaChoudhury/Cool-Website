@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "General Sans";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#minicircle {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+#main {
+    width: 100%;
+    background-color: black;
+
+}
+
+#hero {
+    position: relative;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 50px;
+    color: #fff;
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+#heading {
+    margin-left: 25px;
+    margin-top: 110px;
+}
+
+#heading h1 {
+    margin-left: 30px;
+    opacity: .6;
+    line-height: .84;
+    font-family: "General Sans Medium";
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#heading #secondh1 {
+    margin-left: 233px;
+}
+
+.blocktext {
+    width: fit-content;
+
+}
+
+.blocktext h5 {
+    font-size: 15px;
+    margin-top: 23px;
+    text-align: right;
+}
+
+#chhotiheadings {
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+#chhotiheadings h5 {
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    text-align: right;
+    margin-top: .5vw;
+}
+
+#herofooter {
+   
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#herofooter #first {
+    padding-left: 34px;
+}
+
+#herofooter #iconset {
+    padding-right: 40px;
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circle {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    color: rgb(10, 1, 1);
+    border-radius: 50%;
+    background-color: #888;
+}
+
+#second {
+    color: white;
+    padding-top: 200px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.elem {
+    position: relative;
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2vw;
+    padding: 3vw 3vw;
+    padding-right: 0;
+    padding-left: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7.2vw;
+    opacity: .6;
+}
+
+.elemlast {
+    border-bottom: 1px solid #888;
+}
+
+.elem img {
+    display: none;
+    /* opacity: 0; */
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 85px;
+    color: #fff;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    padding-top: 0;
+    height: 100vh;
+    background-color: black;
+    font-size: 18px;
+   
+
+}
+
+#textabout {
+    width: 25rem;
+}
+
+#textabout h5 {
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#textabout p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+#about img {
+    width: 230px;
+}
+
+#textabout a {
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#subscribe {
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 10vw;
+    background-color: black;
+    margin-top: -30vh;
+    margin-bottom: -12px;
+}
+
+#subscribe h5 {
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: black;
+    color: #fff
+}
+
+#footerleft {
+    display: flex;
+    gap: 20px;
+    font-size: 19px;
+}
+
+#footerright {
+    display: flex;
+    gap: 40px;
+    margin-right: 1.5vw;
+}
+
+#footerright a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
